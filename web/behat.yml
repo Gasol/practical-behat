@@ -1,0 +1,7 @@
+default:
+  extensions:
+    Behat\MinkExtension\Extension:
+      files_path: %behat.paths.base%/data
+      base_url: https://droplr.com/
+      goutte:   ~
+      selenium2: ~
